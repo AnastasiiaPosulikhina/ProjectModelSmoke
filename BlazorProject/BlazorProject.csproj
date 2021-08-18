@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>BlazorProject</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WebApplicationToCheckTODOs\WebApplicationToCheckTODOs.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="MoveMeToMainDir\Some.razor" />
+      <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\package.json" />
+      <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData.json" />
+      <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData_Assets.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="MoveMeToMainDir\Some.razor" />
+    </ItemGroup>
+
+</Project>
