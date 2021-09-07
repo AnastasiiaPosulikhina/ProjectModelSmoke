@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="ExcludedFolder\Cat.cs" />
+        <Compile Include="ExcludedFolder\Cat.cs" />
+        <Compile Include="ExcludedFromSolutionButInIndex\Cat.cs" />
+        <Compile Remove="ExcludedFromSolutionButInIndex\**" />
+        <Compile Remove="ExcludedFolder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Remove="ExcludedFromSolutionButInIndex\**" />
+        <EmbeddedResource Remove="ExcludedFolder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="ExcludedFromSolutionButInIndex\**" />
+        <None Remove="ExcludedFolder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="FolderOutOfIndex\Some.razor">
+            <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="NewDirectory1" />
+    </ItemGroup>
+
+</Project>
