@@ -1,0 +1,114 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+        <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+        <IsPackable>false</IsPackable>
+        <SpaRoot>ClientApp\</SpaRoot>
+        <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+
+        <!-- Set this to true if you enable server-side prerendering -->
+        <BuildServerSideRenderer>false</BuildServerSideRenderer>
+        <RootNamespace>AngularProject</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Don't publish the SPA source files, but do show them in the project files list -->
+        <Content Remove="$(SpaRoot)**" />
+        <Content Include="ClientApp\node_modules\.bin\acorn" />
+        <Content Include="ClientApp\node_modules\.bin\acorn.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\acorn.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\ansi-html" />
+        <Content Include="ClientApp\node_modules\.bin\ansi-html.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\ansi-html.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\atob" />
+        <Content Include="ClientApp\node_modules\.bin\atob.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\atob.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\autoprefixer" />
+        <Content Include="ClientApp\node_modules\.bin\autoprefixer.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\autoprefixer.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\blocking-proxy" />
+        <Content Include="ClientApp\node_modules\.bin\blocking-proxy.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\blocking-proxy.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\browserslist" />
+        <Content Include="ClientApp\node_modules\.bin\browserslist.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\browserslist.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\build-optimizer" />
+        <Content Include="ClientApp\node_modules\.bin\build-optimizer.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\build-optimizer.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\cssesc" />
+        <Content Include="ClientApp\node_modules\.bin\cssesc.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\cssesc.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\errno" />
+        <Content Include="ClientApp\node_modules\.bin\errno.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\errno.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\esparse" />
+        <Content Include="ClientApp\node_modules\.bin\esparse.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\esparse.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\esvalidate" />
+        <Content Include="ClientApp\node_modules\.bin\esvalidate.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\esvalidate.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\image-size" />
+        <Content Include="ClientApp\node_modules\.bin\image-size.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\image-size.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\import-local-fixture" />
+        <Content Include="ClientApp\node_modules\.bin\import-local-fixture.cmd" />
+        <Content Include="ClientApp\node_modules\.bin\import-local-fixture.ps1" />
+        <Content Include="ClientApp\node_modules\.bin\ivy-ngcc" />
+        <None Remove="$(SpaRoot)**" />
+        <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+        <None Remove="ClientApp\src\app1\test2\**" />
+        <Content Remove="ClientApp\src\app1\test2\**" />
+        <None Remove="ClientApp\node_modules\**" />
+        <Content Remove="ClientApp\node_modules\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Remove="ClientApp\src\app1\test2\**" />
+        <Compile Remove="ClientApp\node_modules\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Remove="ClientApp\src\app1\test2\**" />
+        <EmbeddedResource Remove="ClientApp\node_modules\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BlazorProject\BlazorProject.csproj" OutputItemType="Analyzer" />
+        <ProjectReference Include="..\CheckFilesAndDirsMoving\CheckFilesAndDirsMoving.csproj" />
+    </ItemGroup>
+
+    <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+        <!-- Ensure Node.js is installed -->
+        <Exec Command="node --version" ContinueOnError="true">
+            <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+        </Exec>
+        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+        <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    </Target>
+
+    <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+        <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --prod" />
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
+
+        <!-- Include the newly-built files in the publish output -->
+        <ItemGroup>
+            <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**" />
+            <DistFiles Include="$(SpaRoot)node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
+            <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+                <RelativePath>%(DistFiles.Identity)</RelativePath>
+                <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+                <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+            </ResolvedFileToPublish>
+        </ItemGroup>
+    </Target>
+
+</Project>

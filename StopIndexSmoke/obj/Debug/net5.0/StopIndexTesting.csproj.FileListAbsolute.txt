@@ -1,0 +1,16 @@
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.exe
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.deps.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.runtimeconfig.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.runtimeconfig.dev.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\ref\StopIndexTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\bin\Debug\net5.0\StopIndexTesting.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.AssemblyInfoInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.AssemblyInfo.cs
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\ref\StopIndexTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.genruntimeconfig.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexTesting\obj\Debug\net5.0\StopIndexTesting.csproj.AssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.exe
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.deps.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.runtimeconfig.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.runtimeconfig.dev.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\ref\SearchEverywhereTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\bin\Debug\net5.0\SearchEverywhereTesting.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.AssemblyInfoInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.AssemblyInfo.cs
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\ref\SearchEverywhereTesting.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.genruntimeconfig.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\SearchEverywhereTesting\obj\Debug\net5.0\SearchEverywhereTesting.csproj.AssemblyReference.cache

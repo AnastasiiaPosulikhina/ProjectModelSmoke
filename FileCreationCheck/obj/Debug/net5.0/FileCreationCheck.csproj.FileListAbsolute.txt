@@ -1,0 +1,16 @@
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.exe
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.deps.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.runtimeconfig.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.runtimeconfig.dev.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\ref\FileCreationCheck.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\bin\Debug\net5.0\FileCreationCheck.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.AssemblyInfoInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.AssemblyInfo.cs
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\ref\FileCreationCheck.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.genruntimeconfig.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\FileCreationCheck\obj\Debug\net5.0\FileCreationCheck.csproj.AssemblyReference.cache

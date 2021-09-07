@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "StopIndexTesting/1.0.0": {
+        "runtime": {
+          "StopIndexTesting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StopIndexTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

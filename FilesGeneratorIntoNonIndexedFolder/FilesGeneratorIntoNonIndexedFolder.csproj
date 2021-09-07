@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>FilesGeneratorIntoNonIndexedFolder</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <TypeScriptCompile Include="TestFiles\script2.ts" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Output\testfile.txt" />
+        <Content Include="Output\testfile10.txt" />
+        <Content Include="Output\testfile11.txt" />
+        <Content Include="Output\testfile12.txt" />
+        <Content Include="Output\testfile13.txt" />
+        <Content Include="Output\testfile14.txt" />
+        <Content Include="Output\testfile15.txt" />
+        <Content Include="Output\testfile16.txt" />
+        <Content Include="Output\testfile17.txt" />
+        <Content Include="Output\testfile18.txt" />
+        <Content Include="Output\testfile19.txt" />
+        <Content Include="Output\testfile2.txt" />
+        <Content Include="Output\testfile20.txt" />
+        <Content Include="Output\testfile21.txt" />
+        <Content Include="Output\testfile3.txt" />
+        <Content Include="Output\testfile4.txt" />
+        <Content Include="Output\testfile5.txt" />
+        <Content Include="Output\testfile6.txt" />
+        <Content Include="Output\testfile7.txt" />
+        <Content Include="Output\testfile8.txt" />
+        <Content Include="Output\testfile9.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="_csharp" />
+    </ItemGroup>
+
+</Project>

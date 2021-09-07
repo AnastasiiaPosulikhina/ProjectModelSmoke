@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/WebApplicationToCheckTODOs" Path="C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\WebApplicationToCheckTODOs\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\BlazorProject\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>
