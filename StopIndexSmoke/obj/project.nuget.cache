@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BcG5ihv3fYUxsH1wdTegrO6MQ7NOutb7P1qMcquqw/912/ZdnLtl1VmGHq768+boeGKMVdybUNB/8vPH90SFYA==",
+  "dgSpecHash": "AXKawqOliroHhTN3p3ou5iaS2l+e6L4h8ZiEZZ0Gkaj/q++Rj0J6BNzYaoL4muM6TrreO4QlVjVMKgz7waVUdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\StopIndexTesting\\StopIndexTesting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\StopIndexSmoke\\StopIndexSmoke.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

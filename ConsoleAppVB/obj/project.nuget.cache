@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aQITJpz31E7b5Mgvlit395dnz3BwJxVPWUTab69RL8/NN1FSgHL6EhOVV4oygw/eyecoYV0Go8iTm5NKuMNO5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\ConsoleAppVB\\ConsoleAppVB.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

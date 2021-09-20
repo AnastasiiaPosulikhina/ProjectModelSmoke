@@ -27,6 +27,8 @@
 
 @code {
     private bool collapseNavMenu = true;
+    
+    internal string Name { get; set; } // Auto-property can be made get-only
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 

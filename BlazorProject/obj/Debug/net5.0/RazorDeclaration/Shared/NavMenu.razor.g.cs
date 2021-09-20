@@ -93,6 +93,8 @@ using BlazorProject.Shared;
 #line 28 "C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\BlazorProject\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
+    
+    internal string Name { get; set; } // Auto-property can be made get-only
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 

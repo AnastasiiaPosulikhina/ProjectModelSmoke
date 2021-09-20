@@ -10,4 +10,15 @@
         <Compile Include="FileToSearch.fs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="Actions\Copy\CopyMe.css" />
+      <None Include="Actions\Copy\CopyMe.html" />
+      <None Include="Actions\Copy\CopyMe.js" />
+      <None Include="Actions\Copy\CopyMe.min.js" />
+      <None Include="Actions\Rename\RenameMe.css" />
+      <None Include="Actions\Rename\RenameMe.html" />
+      <None Include="Actions\Rename\RenameMe.js" />
+      <None Include="Actions\Rename\RenameMe.min.js" />
+    </ItemGroup>
+
 </Project>

@@ -21,6 +21,35 @@
         </Content>
         <None Remove="$(SpaRoot)**" />
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+        <None Remove="StopIndexSmoke\ExcludedFolder\**" />
+        <Content Remove="StopIndexSmoke\ExcludedFolder\**" />
+        <None Remove="StopIndexSmoke\ExcludedFromSolutionButInIndex\**" />
+        <Content Remove="StopIndexSmoke\ExcludedFromSolutionButInIndex\**" />
+        <None Update="Actions\Rename\RenameMePlease.css">
+          <DependentUpon>RenameMePlease.razor</DependentUpon>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Actions\Copy\CopyMePlease.cshtml" />
+      <AdditionalFiles Include="Actions\Rename\RenameMePlease.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Copy\CopyMePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Copy-1\Copy-1MePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Rename\RenameMePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Copy\CopyMeAlso\Rename\RenameMePlease.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="StopIndexSmoke\ExcludedFolder\**" />
+      <Compile Remove="StopIndexSmoke\ExcludedFromSolutionButInIndex\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="StopIndexSmoke\ExcludedFolder\**" />
+      <EmbeddedResource Remove="StopIndexSmoke\ExcludedFromSolutionButInIndex\**" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

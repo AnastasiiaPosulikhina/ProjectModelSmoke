@@ -8,7 +8,10 @@
     <explicitIncludes>
       <Path>.idea/.idea.ProjectModelSmoke/.idea/workspace.xml</Path>
       <Path>CheckFilesAndDirsMoving/dir1/subdir1/Class2.cs</Path>
+      <Path>FilesGeneratorIntoNonIndexedFolder</Path>
+      <Path>MainActionsSmoke/StopIndexSmoke/ExcludedFromSolutionButInIndex</Path>
       <Path>SearchEverywhereTesting/ExcludedFromSolutionButInIndex</Path>
+      <Path>StopIndexSmoke/ExcludedFromSolutionButInIndex</Path>
       <Path>StopIndexTesting/ExcludedFromSolutionButInIndex</Path>
     </explicitIncludes>
     <explicitExcludes>
@@ -30,13 +33,16 @@
       <Path>AngularProject/ClientApp/src/app1/test</Path>
       <Path>AngularProject/Person.cs</Path>
       <Path>App/dir</Path>
-      <Path>BlazorProject/wwwroot</Path>
       <Path>FilesGeneratorIntoNonIndexedFolder/Output</Path>
       <Path>FilesGeneratorIntoNonIndexedFolder/TestFilesSubDir1</Path>
       <Path>FilesGeneratorIntoNonIndexedFolder1/TestFilesSubDir1</Path>
+      <Path>MainActionsSmoke/StopIndexSmoke/FolderOutOfIndex</Path>
+      <Path>MainActionsSmoke/StopIndexSmoke/GeneratorOutput</Path>
       <Path>NestedFilesCheck_1/Nested Files</Path>
       <Path>SearchEverywhereTesting/FolderOutOfIndex</Path>
       <Path>SearchEverywhereTestingInNUnitTestProj/FilesToSearch</Path>
+      <Path>StopIndexSmoke/FolderOutOfIndex</Path>
+      <Path>StopIndexSmoke/GeneratorOutput</Path>
       <Path>StopIndexTesting/ExcludedFolder</Path>
       <Path>StopIndexTesting/FolderOutOfIndex</Path>
       <Path>StopIndexTesting/FolderOutOfIndex2</Path>
