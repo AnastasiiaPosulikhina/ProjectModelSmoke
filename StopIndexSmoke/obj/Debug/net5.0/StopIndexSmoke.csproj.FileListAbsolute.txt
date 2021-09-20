@@ -1,0 +1,16 @@
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.exe
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.deps.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.runtimeconfig.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.runtimeconfig.dev.json
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\ref\StopIndexSmoke.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\bin\Debug\net5.0\StopIndexSmoke.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.csproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.AssemblyInfoInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.AssemblyInfo.cs
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\ref\StopIndexSmoke.dll
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.pdb
+C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\obj\Debug\net5.0\StopIndexSmoke.genruntimeconfig.cache
