@@ -8,9 +8,13 @@ namespace StopIndexSmoke
     {
         private static void Main(string[] args)
         {
-            string fileName = @"C:\Users\Anastasiia.Posulikhi\RiderProjects\ProjectModelSmoke\StopIndexSmoke\GeneratorOutput\test1.txt";
+            // TODO: check file generation to non-indexed folders
+            // 1. Specify the path to the file to be created
+            // 2. Give it a name
+            // 3. Run the StopIndexSmoke app
+            string file = @"..\ProjectModelSmoke\StopIndexSmoke\GeneratorOutput\test1.txt";
 
-            using (FileStream fs = File.Create(fileName))
+            using (FileStream fs = File.Create(file))
             {
                 Byte[] message = new UTF8Encoding(true).GetBytes("Message");
                 fs.Write(message, 0, message.Length);
