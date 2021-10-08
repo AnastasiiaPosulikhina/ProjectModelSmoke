@@ -6,10 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\WebApplicationToCheckTODOs\WebApplicationToCheckTODOs.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <_ContentIncludedByDefault Remove="MoveMeToMainDir\Some.razor" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\package.json" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData.json" />
