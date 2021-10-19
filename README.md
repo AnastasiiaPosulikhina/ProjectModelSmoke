@@ -4,7 +4,7 @@
 _Precondition:_ open MainActionsSmoke project
 #### Rename
 1. Rename projects
-2. Rename `Rename` and `ClientApp | src | Rename` folders and files inside
+2. Rename `MainActionsSmoke | Actions | Rename` folder and `MainActionsSmoke | ClientApp | src | Rename` folder and files inside
 
 -  Rename via Refactor This... action
 -  Rename via Right-click | Edit | Rename
@@ -47,7 +47,7 @@ _Precondition:_ open MainActionsSmoke project
 Also, check the case [RIDER-63566](https://youtrack.jetbrains.com/issue/RIDER-63566) in XAML solution folder projects
 
 
-**_Note:_** repeat with F# and VB (optional) projects
+**_Note:_** repeat with a shared project, F# and VB (optional) projects
 ### Attached folders
 1. Attach/detach a folder/solution folder
 2. Attach/detach an ASP.NET Core app (node_modules npm packages, listed in package.json, should be indexed, others shouldn't)
@@ -163,12 +163,11 @@ No full paths for
 - decompiled sources
 - scratches
 - consoles
-- source cache (refer to [RIDER-65773](https://youtrack.jetbrains.com/issue/RIDER-65773))
+- source cache 
 
 Also, check these cases:
 - https://youtrack.jetbrains.com/issue/RIDER-59087
 - https://youtrack.jetbrains.com/issue/RIDER-64425
-- https://youtrack.jetbrains.com/issue/RIDER-59030
 ####View | Appearance | Navigation Bar is disabled
 Use `Jump to Navigation Bar` action to navigate to
 - solution node

@@ -6,10 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\WebApplicationToCheckTODOs\WebApplicationToCheckTODOs.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <_ContentIncludedByDefault Remove="MoveMeToMainDir\Some.razor" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\package.json" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData.json" />
@@ -18,6 +14,11 @@
 
     <ItemGroup>
       <UpToDateCheckInput Remove="MoveMeToMainDir\Some.razor" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Rename\RenameMePlease.cshtml" />
+      <AdditionalFiles Include="Rename\RenameMePlease.razor" />
     </ItemGroup>
 
 </Project>
