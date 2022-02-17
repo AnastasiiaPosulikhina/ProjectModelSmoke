@@ -1,2 +1,2 @@
-﻿         function FooBar(){}
+﻿function FooBar(){}
  

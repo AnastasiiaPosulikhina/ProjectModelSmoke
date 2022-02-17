@@ -6,6 +6,7 @@
         <SpaRoot>ClientApp\</SpaRoot>
         <SpaProxyServerUrl>https://localhost:5002</SpaProxyServerUrl>
         <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
+        <RootNamespace>MainActionsSmoke</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -28,11 +29,35 @@
         <None Update="Actions\Rename\RenameMePlease.css">
           <DependentUpon>RenameMePlease.razor</DependentUpon>
         </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <AdditionalFiles Include="Actions\Copy\CopyMePlease.cshtml" />
-      <AdditionalFiles Include="Actions\Rename\RenameMePlease.cshtml" />
+        <None Include="Actions\Copy\CopyMe.cs" />
+        <None Include="Actions\Copy\CopyMePlease.cshtml.cs" />
+        <None Include="Actions\Rename\RenameMe.cs" />
+        <None Include="Actions\Rename\RenameMePlease.cshtml.cs" />
+        <Compile Remove="TestMultiFileProps\Test2.cs" />
+        <None Include="TestMultiFileProps\Test2.cs">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <Compile Remove="TestMultiFileProps\Test.cs" />
+        <None Include="TestMultiFileProps\Test.cs">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <Content Remove="TestMultiFileProps\Test.json" />
+        <None Include="TestMultiFileProps\Test.json" />
+        <None Update="TestMultiFileProps\folder\main.ts">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="TestMultiFileProps\folder\polyfills.ts">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="TestMultiFileProps\folder\index.html">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="TestMultiFileProps\folder\styles.css">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="TestMultiFileProps\folder\test.ts">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
     <ItemGroup>
@@ -40,6 +65,11 @@
       <_ContentIncludedByDefault Remove="Actions\Copy-1\Copy-1MePlease.cshtml" />
       <_ContentIncludedByDefault Remove="Actions\Rename\RenameMePlease.cshtml" />
       <_ContentIncludedByDefault Remove="Actions\Copy\CopyMeAlso\Rename\RenameMePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Copy2\Copy2MePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Rename\Copy\CopyMePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Copy\CopyMePlease.cshtml" />
+      <_ContentIncludedByDefault Remove="Actions\Rename\RenameMePlease.razor" />
+      <_ContentIncludedByDefault Remove="Actions\Copy _2\Copy _2MePlease.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -50,6 +80,22 @@
     <ItemGroup>
       <EmbeddedResource Remove="StopIndexSmoke\ExcludedFolder\**" />
       <EmbeddedResource Remove="StopIndexSmoke\ExcludedFromSolutionButInIndex\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Copy\CopyMePlease.cshtml" />
+      <UpToDateCheckInput Remove="Actions\Copy\CopyMePlease.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <TypeScriptCompile Include="Actions\Copy\CopyMeAlso\CopyMe.ts" />
+      <TypeScriptCompile Include="Actions\Rename\RenameMeAlso\RenameMe.ts" />
+      <None Include="TestMultiFileProps\Test.ts" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Actions\Copy\CopyMePlease.cshtml" />
+      <AdditionalFiles Include="Actions\Rename\RenameMePlease.cshtml" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

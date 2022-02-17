@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "FSharp.Core/6.0.0-beta.21457.3": {
+      "FSharp.Core/6.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/FSharp.Core.dll": {}
@@ -62,17 +62,17 @@
     }
   },
   "libraries": {
-    "FSharp.Core/6.0.0-beta.21457.3": {
-      "sha512": "mqMGlAYE8mL0URs9nf1Tm/12uh30AfqkH2FQ8nvs2F1HbvN15c9c8Tmib2JmpcvIpTgKdR+QNFgtkpybl1t76g==",
+    "FSharp.Core/6.0.1": {
+      "sha512": "VrFAiW8dEEekk+0aqlbvMNZzDvYXmgWZwAt68AUBqaWK8RnoEVUNglj66bZzhs4/U63q0EfXlhcEKnH1sTYLjw==",
       "type": "package",
-      "path": "fsharp.core/6.0.0-beta.21457.3",
+      "path": "fsharp.core/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "contentFiles/any/netstandard2.0/FSharp.Core.xml",
         "contentFiles/any/netstandard2.1/FSharp.Core.xml",
-        "fsharp.core.6.0.0-beta.21457.3.nupkg.sha512",
+        "fsharp.core.6.0.1.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/netstandard2.0/FSharp.Core.dll",
         "lib/netstandard2.0/FSharp.Core.xml",
@@ -109,7 +109,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FSharp.Core >= 6.0.0-beta.*"
+      "FSharp.Core >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -140,8 +140,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -157,7 +156,7 @@
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[6.0.0-beta.*, )",
+            "version": "[6.0.1, )",
             "generatePathProperty": true
           }
         },
@@ -174,7 +173,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.9, 5.0.9]"
+            "version": "[5.0.13, 5.0.13]"
           }
         ],
         "frameworkReferences": {
@@ -182,7 +181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

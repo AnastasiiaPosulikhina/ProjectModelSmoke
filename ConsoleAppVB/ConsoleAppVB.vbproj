@@ -6,4 +6,208 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="..\ConsoleAppFSharp\Actions\Copy\CopyMe.css">
+        <Link>ConsoleAppFSharp\Actions\Copy\CopyMe.css</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Copy\CopyMe.html">
+        <Link>ConsoleAppFSharp\Actions\Copy\CopyMe.html</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Copy\CopyMe.js">
+        <Link>ConsoleAppFSharp\Actions\Copy\CopyMe.js</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Copy\CopyMe.min.js">
+        <Link>ConsoleAppFSharp\Actions\Copy\CopyMe.min.js</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Copy\NewFile1.txt">
+        <Link>ConsoleAppFSharp\Actions\Copy\NewFile1.txt</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Rename\RenameMe.css">
+        <Link>ConsoleAppFSharp\Actions\Rename\RenameMe.css</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Rename\RenameMe.html">
+        <Link>ConsoleAppFSharp\Actions\Rename\RenameMe.html</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Rename\RenameMe.js">
+        <Link>ConsoleAppFSharp\Actions\Rename\RenameMe.js</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\Actions\Rename\RenameMe.min.js">
+        <Link>ConsoleAppFSharp\Actions\Rename\RenameMe.min.js</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.deps.json">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.deps.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.exe">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.exe</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.pdb">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.pdb</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.runtimeconfig.dev.json">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.runtimeconfig.dev.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.runtimeconfig.json">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ConsoleAppFSharp.runtimeconfig.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\cs\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\cs\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\de\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\de\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\es\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\es\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\fr\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\fr\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\FSharp.Core.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\FSharp.Core.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\it\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\it\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ja\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ja\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ko\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ko\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\pl\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\pl\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\pt-BR\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\pt-BR\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\ru\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\ru\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\tr\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\tr\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\zh-Hans\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\zh-Hans\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\bin\Debug\net5.0\zh-Hant\FSharp.Core.resources.dll">
+        <Link>ConsoleAppFSharp\bin\Debug\net5.0\zh-Hant\FSharp.Core.resources.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\ConsoleAppFSharp.fsproj">
+        <Link>ConsoleAppFSharp\ConsoleAppFSharp.fsproj</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.dgspec.json">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.dgspec.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.g.props">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.g.props</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.g.targets">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp.fsproj.nuget.g.targets</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.dgspec.json">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.dgspec.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.g.props">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.g.props</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.g.targets">
+        <Link>ConsoleAppFSharp\obj\ConsoleAppFSharp_.fsproj.nuget.g.targets</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\apphost.exe">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\apphost.exe</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.AssemblyInfoInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.assets.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.assets.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.dll">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.dll</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.AssemblyReference.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.AssemblyReference.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.CopyComplete">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.CopyComplete</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.CoreCompileInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.CoreCompileInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.FileListAbsolute.txt">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.fsproj.FileListAbsolute.txt</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.genruntimeconfig.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.genruntimeconfig.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.pdb">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.pdb</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.AssemblyInfoInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.assets.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.assets.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.fsproj.CoreCompileInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.fsproj.CoreCompileInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\project.assets.json">
+        <Link>ConsoleAppFSharp\obj\project.assets.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\project.nuget.cache">
+        <Link>ConsoleAppFSharp\obj\project.nuget.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\project.packagespec.json">
+        <Link>ConsoleAppFSharp\obj\project.packagespec.json</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.AssemblyInfoInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.assets.cache">
+        <Link>ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.assets.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.fsproj.CoreCompileInputs.cache">
+        <Link>ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.fsproj.CoreCompileInputs.cache</Link>
+      </Content>
+      <Content Include="..\ConsoleAppFSharp\obj\rider.project.restore.info">
+        <Link>ConsoleAppFSharp\obj\rider.project.restore.info</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\ConsoleAppFSharp\Actions\Rename\Test.fs">
+        <Link>ConsoleAppFSharp\Actions\Rename\Test.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\FileToSearch.fs">
+        <Link>ConsoleAppFSharp\FileToSearch.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.fs">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.AssemblyInfo.fs">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp.AssemblyInfo.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.AssemblyInfo.fs">
+        <Link>ConsoleAppFSharp\obj\Debug\net5.0\ConsoleAppFSharp_.AssemblyInfo.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.fs">
+        <Link>ConsoleAppFSharp\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.AssemblyInfo.fs">
+        <Link>ConsoleAppFSharp\obj\Release\net5.0\ConsoleAppFSharp.AssemblyInfo.fs</Link>
+      </Compile>
+      <Compile Include="..\ConsoleAppFSharp\Program.fs">
+        <Link>ConsoleAppFSharp\Program.fs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="..\ConsoleAppFSharp\bin\Release\net5.0">
+        <Link>ConsoleAppFSharp\bin\Release\net5.0</Link>
+      </Folder>
+    </ItemGroup>
+
 </Project>

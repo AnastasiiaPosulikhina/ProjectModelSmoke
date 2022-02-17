@@ -12,7 +12,7 @@ namespace StopIndexSmoke
             // 1. Specify the path to the file to be created
             // 2. Give it a name
             // 3. Run the StopIndexSmoke app
-            string file = @"..\ProjectModelSmoke\StopIndexSmoke\GeneratorOutput\test1.txt";
+            string file = @"..\ProjectModelSmoke\StopIndexSmoke\GeneratorOutput\test2.txt";
 
             using (FileStream fs = File.Create(file))
             {

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "26yulF6FABaf8N0vFc6dvRkIjI/1oiqH9mDIFoKKVp3zfpBQmaDmz99QWVXUq/IHD7DAaX/U+2WAIt5KlT79EA==",
+  "dgSpecHash": "DwVSlSB3RyE2+qdjLENqmum/4MIdxCPCKT+FyvQYEyACQQz5HexxHCbwQyUOPe7SWmSc33P8sNEEauhRCtKYfQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\ConsoleAppFSharp\\ConsoleAppFSharp.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\fsharp.core\\6.0.0-beta.21457.3\\fsharp.core.6.0.0-beta.21457.3.nupkg.sha512",
-    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512",
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

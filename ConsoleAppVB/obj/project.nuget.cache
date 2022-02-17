@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aQITJpz31E7b5Mgvlit395dnz3BwJxVPWUTab69RL8/NN1FSgHL6EhOVV4oygw/eyecoYV0Go8iTm5NKuMNO5A==",
+  "dgSpecHash": "j76uC6ItFpNev3KRrjj9v6gSXGCSyd5E0wlz3zltRYx+eMeLowWBLg46fwgXmwACOjEMk1NATm/BOGNOwRfKVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\ConsoleAppVB\\ConsoleAppVB.vbproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

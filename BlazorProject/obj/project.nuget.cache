@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lVFTaejThrf0FO7B7x4tuNibdaLLuZ3W3/ntndLv3AC3KzH13/zIA9jYmyMQCqyLLoYBPiAX9d91MSVSXqKrmw==",
+  "dgSpecHash": "R8Coyr4tFgMg1Hwj/QThJrZQJuWDe5VlNCpvA+FCE4cHJXDyEz6HGUC9vf3/LorgOcRVoq6xJCQBm7PEUcc7Fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\BlazorProject\\BlazorProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

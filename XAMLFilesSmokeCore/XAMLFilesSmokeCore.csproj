@@ -5,6 +5,11 @@
         <TargetFramework>net5.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
+
+    <Import Project="..\SharedProject\SharedProject.projitems" Label="Shared" />
+
+    <Import Project="..\SharedProject1\SharedProject1.projitems" Label="Shared" />
 
 </Project>

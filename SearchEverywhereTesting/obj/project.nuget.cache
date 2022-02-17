@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KUinteKdKtXH4d0df7dCX2HAOCQ5q9V71FFeYcsLcKgYi55zH4NVjpCQ3ZlQm893cO/HwAgS94/cRqJy9a/CNQ==",
+  "dgSpecHash": "LniZ8dNDLiGEC6+CvzhGiNjOZL42CpDf4a9z40bvioaKZLlInv9R9r0wvsrC/NHDJAO4uwh7n1BwbHMSLaAf3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anastasiia.Posulikhi\\RiderProjects\\ProjectModelSmoke\\SearchEverywhereTesting\\SearchEverywhereTesting.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Anastasiia.Posulikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

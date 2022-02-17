@@ -6,19 +6,128 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="..\..\ConsoleApp63\ConsoleApp63\FolderToLink\FileToLink.fs">
+          <Link>FolderToLink\FileToLink.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\AppExprAnalyzerTest.fs">
+          <Link>Daemon\AppExprAnalyzerTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\ErrorsHighlightingTest.fs">
+          <Link>Daemon\ErrorsHighlightingTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\FcsErrorsHighlightingTest.fs">
+          <Link>Daemon\FcsErrorsHighlightingTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\FormatSpecifiersHighlightingTest.fs">
+          <Link>Daemon\FormatSpecifiersHighlightingTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\FSharpColorHighlightingTest.fs">
+          <Link>Daemon\FSharpColorHighlightingTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\FSharpHighlightingTestBase.fs">
+          <Link>Daemon\FSharpHighlightingTestBase.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\IdentifierHighlightingTest.fs">
+          <Link>Daemon\IdentifierHighlightingTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\InferredTypeCodeVisionProviderTest.fs">
+          <Link>Daemon\InferredTypeCodeVisionProviderTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\InheritanceGutterMarksTest.fs">
+          <Link>Daemon\InheritanceGutterMarksTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\InterpolatedStringCandidateTest.fs">
+          <Link>Daemon\InterpolatedStringCandidateTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\LambdaAnalyzerTest.fs">
+          <Link>Daemon\LambdaAnalyzerTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\PipeChainTypeHintStageTest.fs">
+          <Link>Daemon\PipeChainTypeHintStageTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantAttributeParensTest.fs">
+          <Link>Daemon\RedundantAttributeParensTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantAttributeSuffixAnalyzerTest.fs">
+          <Link>Daemon\RedundantAttributeSuffixAnalyzerTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantParenExprTest.fs">
+          <Link>Daemon\RedundantParenExprTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantParenPatTest.fs">
+          <Link>Daemon\RedundantParenPatTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantParenTypeUsageTest.fs">
+          <Link>Daemon\RedundantParenTypeUsageTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\RedundantQualifiersTest.fs">
+          <Link>Daemon\RedundantQualifiersTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\StringAnalyzerTest.fs">
+          <Link>Daemon\StringAnalyzerTest.fs</Link>
+        </Compile>
+        <Compile Include="..\..\fsharp-support\ReSharper.FSharp\test\src\FSharp.Tests\Daemon\SyntaxHighlightingTest.fs">
+          <Link>Daemon\SyntaxHighlightingTest.fs</Link>
+        </Compile>
         <Compile Include="Program.fs" />
         <Compile Include="FileToSearch.fs" />
+        <Content Include="Actions\Copy\CopyMe.min.js" />
+        <Content Include="Actions\Copy\CopyMe.js" />
+        <Content Include="Actions\Copy\CopyMe.css" />
+        <Content Include="Actions\Copy\NewFile1.txt" />
+        <Content Include="Actions\Copy\CopyMe.html" />
+        <Compile Include="Actions\Rename\Test.fs" />
+        <Content Include="Actions\Rename\RenameMe.js" />
+        <Content Include="Actions\Rename\RenameMe.min.js" />
+        <Content Include="Actions\Rename\RenameMe.html" />
+        <Content Include="Actions\Rename\RenameMe.css" />
+        <Content Include="..\SharedProject\Actions\Copy\Test.xml">
+          <Link>SharedProject\Actions\Copy\Test.xml</Link>
+        </Content>
+        <Content Include="..\SharedProject\Actions\Copy\Test.tt">
+          <Link>SharedProject\Actions\Copy\Test.tt</Link>
+        </Content>
+        <TypeScriptCompile Include="..\SharedProject\Actions\Copy\Test.ts">
+          <Link>SharedProject\Actions\Copy\Test.ts</Link>
+        </TypeScriptCompile>
+        <Content Include="..\SharedProject\Actions\Copy\Test.js">
+          <Link>SharedProject\Actions\Copy\Test.js</Link>
+        </Content>
+        <Content Include="..\SharedProject\Actions\Copy\Test.html">
+          <Link>SharedProject\Actions\Copy\Test.html</Link>
+        </Content>
+        <Content Include="..\SharedProject\Actions\Copy\Test.css">
+          <Link>SharedProject\Actions\Copy\Test.css</Link>
+        </Content>
+        <Compile Include="..\SharedProject\Actions\Copy\Test.cs">
+          <Link>SharedProject\Actions\Copy\Test.cs</Link>
+        </Compile>
+        <Content Include="..\SharedProject\Actions\Copy\CopyMe.min.js">
+          <Link>SharedProject\Actions\Copy\CopyMe.min.js</Link>
+        </Content>
+        <Content Include="..\SharedProject\Actions\Copy\CopyMe.js">
+          <Link>SharedProject\Actions\Copy\CopyMe.js</Link>
+        </Content>
+        <Content Include="..\SharedProject\Actions\Copy\CopyMe.html">
+          <Link>SharedProject\Actions\Copy\CopyMe.html</Link>
+        </Content>
+        <Compile Include="..\SharedProject\Actions\Copy\CopyMe.cs">
+          <Link>SharedProject\Actions\Copy\CopyMe.cs</Link>
+        </Compile>
+        <Content Include="..\SharedProject\SharedProject.shproj">
+          <Link>SharedProject\SharedProject.shproj</Link>
+        </Content>
+        <Content Include="..\SharedProject\SharedProject.projitems">
+          <Link>SharedProject\SharedProject.projitems</Link>
+        </Content>
+        <Compile Include="..\SharedProject\Class1.cs">
+          <Link>SharedProject\Class1.cs</Link>
+        </Compile>
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="Actions\Copy\CopyMe.css" />
-      <None Include="Actions\Copy\CopyMe.html" />
-      <None Include="Actions\Copy\CopyMe.js" />
-      <None Include="Actions\Copy\CopyMe.min.js" />
-      <None Include="Actions\Rename\RenameMe.css" />
-      <None Include="Actions\Rename\RenameMe.html" />
-      <None Include="Actions\Rename\RenameMe.js" />
-      <None Include="Actions\Rename\RenameMe.min.js" />
+      <Folder Include="..\SharedProject\Actions\Rename">
+        <Link>SharedProject\Actions\Rename</Link>
+      </Folder>
     </ItemGroup>
-
 </Project>

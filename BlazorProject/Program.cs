@@ -14,7 +14,7 @@ namespace BlazorProject
 		public static void Main(string[] args)
 		{
 			CreateHostBuilder(args).Build().Run();
-			Console.WriteLine();
+			Console.WriteLine("Any_id_with_underscore");
 		}
 
 		public static IHostBuilder CreateHostBuilder(string[] args) =>

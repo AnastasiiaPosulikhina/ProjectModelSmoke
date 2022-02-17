@@ -2,7 +2,7 @@
 <project version="4">
   <component name="UserContentModel">
     <attachedFolders>
-      <Path>../ASP.NETCoreWebApplication1</Path>
+      <Path>../ASP.NETCoreWebApplication</Path>
       <Path>ConsoleApplication1</Path>
     </attachedFolders>
     <explicitIncludes>
@@ -11,6 +11,7 @@
       <Path>FilesGeneratorIntoNonIndexedFolder</Path>
       <Path>MainActionsSmoke/StopIndexSmoke/ExcludedFromSolutionButInIndex</Path>
       <Path>SearchEverywhereTesting/ExcludedFromSolutionButInIndex</Path>
+      <Path>StopIndexSmoke/Combined/ExcludedButInIndex.cs</Path>
       <Path>StopIndexSmoke/ExcludedFromSolutionButInIndex</Path>
       <Path>StopIndexTesting/ExcludedFromSolutionButInIndex</Path>
     </explicitIncludes>
@@ -41,6 +42,7 @@
       <Path>NestedFilesCheck_1/Nested Files</Path>
       <Path>SearchEverywhereTesting/FolderOutOfIndex</Path>
       <Path>SearchEverywhereTestingInNUnitTestProj/FilesToSearch</Path>
+      <Path>StopIndexSmoke/Combined/OutOfIndex.cs</Path>
       <Path>StopIndexSmoke/FolderOutOfIndex</Path>
       <Path>StopIndexSmoke/GeneratorOutput</Path>
       <Path>StopIndexTesting/ExcludedFolder</Path>

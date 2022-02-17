@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:WpfApplicationClassic"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- //     FooBar -->
     </Application.Resources>
 </Application>

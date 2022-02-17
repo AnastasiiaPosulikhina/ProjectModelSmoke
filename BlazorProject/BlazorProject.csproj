@@ -10,6 +10,7 @@
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\package.json" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData.json" />
       <_ContentIncludedByDefault Remove="ProjectFolder\packages\com.unity.textmeshpro\PackageConversionData_Assets.json" />
+      <_ContentIncludedByDefault Remove="Copy\CopyMePlease.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,6 +20,10 @@
     <ItemGroup>
       <AdditionalFiles Include="Rename\RenameMePlease.cshtml" />
       <AdditionalFiles Include="Rename\RenameMePlease.razor" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="FileToSearch.razor" />
     </ItemGroup>
 
 </Project>
